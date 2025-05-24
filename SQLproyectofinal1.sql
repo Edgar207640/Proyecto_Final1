@@ -1,0 +1,8 @@
+USE ProyectoFinal1;
+GO
+ALTER TABLE ResearchResults
+ALTER COLUMN Prompt NVARCHAR(MAX);
+GO
+ALTER TABLE ResearchResults
+ALTER COLUMN Result NVARCHAR(MAX);
+GO
